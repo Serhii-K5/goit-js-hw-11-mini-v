@@ -86,7 +86,7 @@ function galleryCreation(photos) {
     photos.reduce((acc, el) => {
       const htmlCode = `<div class="photo-card">
         <a href="${el.videos.large.url}">
-          <video class="photo" src="${el.videos.tiny.url}" alt="${el.tags}" title="${el.tags}" loading="lazy" /></video>         
+          <video class="photo" src="${el.videos.small.url}" alt="${el.tags}" title="${el.tags}" loading="lazy" /></video>         
           <div class="info">
             <p class="info-item">
               <b>Likes</b> <span> ${el.likes} </span>
